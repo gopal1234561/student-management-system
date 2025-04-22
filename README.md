@@ -1,24 +1,25 @@
-# Student Management System - Backend
+# Getting Started with Create React App
+# Student Management System - Frontend
 
-This is the backend of the **Student Management System** built using **Node.js**, **Express**, and **MongoDB**.
+This is the frontend of the Student Management System built with **React**. It provides a user-friendly interface to manage student records, including adding, editing, viewing, and deleting student information.
+## 🚀 Tech Stack
 
-## 🌐 Live Link
+- React
+- React Router
+- Bootstrap / Tailwind CSS (or any UI library    you're using)
+- Axios (for API requests)
 
-- [https://student-management-system-backend-liaf.onrender.com](https://student-management-system-backend-liaf.onrender.com)
+### `npm start`
 
-## 🛠️ Features
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- Add, edit, delete student records
-- Track statistics of enrolled students
-- RESTful API structure
-- Connected to MongoDB Atlas
-- CORS enabled for frontend communication
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## 📁 Folder Structure
+## 📦 Setup Instructions
 
-Method | Endpoint | Description
-GET | /api/students | Fetch all students
-POST | /api/students | Add a new student
-PUT | /api/students/:id | Update a student
-DELETE | /api/students/:id | Delete a student
-GET | /api/stats | Get stats (department-wise/year-wise)
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/gopal1234561/student-management-system.git
+   cd student-management-system/cd client
