@@ -12,8 +12,8 @@ const studentModel = require('./Student');
 app.get('/', (req, res) => {
   res.send('Student Management System Backend is live ');
 });
-app.use('/api/students', studentRoutes);
-app.use('/api/stats', statsRoutes);
+app.use('/students', studentRoutes);
+app.use('/stats', statsRoutes);
 mongoose.connect(process.env.MONGO_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true
