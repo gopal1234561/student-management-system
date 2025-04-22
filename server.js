@@ -9,6 +9,9 @@ app.use(express.json());
 const studentRoutes = require('./studentRoutes');
 const statsRoutes = require('./stats');
 const studentModel = require('./Student');
+app.get('/', (req, res) => {
+  res.send('Student Management System Backend is live ');
+});
 app.use('/api/students', studentRoutes);
 app.use('/api/stats', statsRoutes);
 mongoose.connect(process.env.MONGO_URI, {
